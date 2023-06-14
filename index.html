@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Dicionário Escolar</h1>
+    <div class="input-container">
+      <input type="text" placeholder="Escreva uma palavra..." id="search-word" oninput="searchWord()">
+    </div>
+
+    <div class="card" id="result-card" hidden>
+      <img id="result-image" src="" alt="Card Image">
+      <div class="card-content">
+        <h2 id="result-word"></h2>
+        <h3 id="result-extra-info"></h3>
+        <p id="result-definition"></p>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
