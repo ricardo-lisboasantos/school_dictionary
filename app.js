@@ -1,7 +1,3 @@
-// const fileId = '1X5P4j2ozUwJJQWiFhkvJT16_mX0LtmeQ'; // Replace with your file ID
-// const url = `https://drive.google.com/uc?export=download&id=${fileId}`;
-// https://drive.google.com/file/d/1X5P4j2ozUwJJQWiFhkvJT16_mX0LtmeQ/view?usp=sharing
-
 const url = 'data/dictionary.csv';
 
 // load the csv file to a variable
